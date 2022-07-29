@@ -1,0 +1,16 @@
+{
+	"color_scheme": "Packages/Colorsublime - Themes/GitHub_Dark.tmTheme",
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"save_on_focus_lost": true,
+	"theme": "Default.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"ui_native_titlebar": true,
+	"ui_separator": true,
+	"ui_wide_scrollbars": true,
+	"update_check": false
+}

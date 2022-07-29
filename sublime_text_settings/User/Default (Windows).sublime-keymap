@@ -1,0 +1,26 @@
+[
+	{ "keys": ["ctrl+d"], "command": "duplicate_line" },
+	{ "keys": ["ctrl+\\"], "command": "toggle_side_bar" },
+	{ "keys": ["alt+m"], "command": "toggle_minimap"},
+    { "keys": ["ctrl+alt+b"], "command": "cancel_build"},
+    { "keys": ["ctrl+shift+/"], "command": "toggle_comment", "args": { "block": true } },
+    {
+        "keys": ["alt+shift+keypad1"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1]]
+        }
+    },
+    {"keys": ["alt+shift+keypad2"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 0.5, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+        }
+    }
+]
